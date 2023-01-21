@@ -1,0 +1,54 @@
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background: blue;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    text-transform: capitalize;
+}
+.container{
+    text-align: center;
+    padding: 3rem;
+    border-radius: 8px;
+    background: white;
+    flex: 0 0 80%;
+}
+ 
+
+button{
+    color: black;
+    padding: 0.5rem 1rem;
+   margin: 1rem auto;
+    border-radius: 7px;
+    background-color: light blue;
+    font-size: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    
+
+}
+button:hover{
+    background-color: blue;
+
+}
+
+input[type="text"]{
+    padding: 0.5rem;
+   margin: 1rem ;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    border: 3px solid lightblue;
+    outline: none;
+}
+input[type="text"]:focus{
+    box-shadow:0 0 10px lightblue;
+}
+#messageOut{
+    margin: 0.5rem;
+    color: lightblue;
+}
